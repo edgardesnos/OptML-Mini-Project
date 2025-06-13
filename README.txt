@@ -2,7 +2,7 @@ README
 
 # Project Description
 
-This project focuses on a comparative analysis of adversarial attack methods, including both first-order and zeroth-order approaches. A fine-tuned ResNet-18 model is used on the CIFAR-10 dataset to evaluate the effectiveness of different attack techniques.
+This project focuses on a comparative analysis of adversarial attack methods, including both first-order and zeroth-order approaches. A fine-tuned ResNet-18 model is used on the CIFAR-10 dataset to evaluate the effectiveness of different attack techniques. For image generation, a finetuned ResNet50 model is used which can be found in models folder. 
 
 ## Code Files
 
@@ -21,7 +21,7 @@ It focuses on producing and visualizing adversarial examples without requiring g
 
 ## Usage
 
-1. Run `optml.ipynb` to train the model and apply first-order and zeroth-order attacks.  
-2. Then use `zo_image_generation.ipynb` to generate adversarial images using zeroth-order methods.
+Run `optml.ipynb` to apply first-order and zeroth-order attacks and evaluate their performances.  
+Run`zo_image_generation.ipynb` to generate adversarial images using zeroth-order methods.
 
 Both notebooks are designed to run in Jupyter Notebook environments.
